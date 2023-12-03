@@ -1,4 +1,4 @@
-with open("2/input.txt") as f:
+with open("input.txt") as f:
     data = [i.strip() for i in f.readlines()]
     
 output = []
