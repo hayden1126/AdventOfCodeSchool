@@ -1,0 +1,4 @@
+import re
+from functools import reduce
+
+print((lambda x: min(lambda f: lambda x: list(map(f, x))((lambda l: reduce(lambda l: reduce(B, l, lambda x: x), l, lambda x: x))((lambda y: lambda f: lambda x: list(map(f, x))(lambda x: (lambda y: lambda x: x if len(a := list(filter(lambda z: z[0] <= x <= z[1], y.keys()))) == 0 else y[a[0]][0] + x - a[0][0])(x))(lambda f: lambda x: list(map(f, x))(lambda x: reduce(lambda x, y: x | {(y[1], y[1] + y[2] - 1): (y[0], y[0] + y[2] - 1)}, x, {}))((lambda u: lambda f: lambda x: list(map(f, x))(lambda x: lambda f: lambda x: list(map(f, x))(lambda y: lambda f: lambda x: list(map(f, x))(lambda z: int(z))(y.split(' ')))(x.split('\n')[1:]))(u.split('\n\n')[1:]))(y))))(x)))((lambda u: lambda f: lambda x: list(map(f, x))(lambda x: int(x))(u.split('\n\n')[0].split(": ")[1].split(' ')))(x))))(open('input.txt', 'r').read()))
