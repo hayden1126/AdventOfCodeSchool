@@ -20,7 +20,7 @@ function day2_1(file::String, r::Int, g::Int, b::Int)::Nothing
 
   println(sum)
 end
-
+  
 function day2_2(file::String)::Nothing
   lines = readlines(file)
   mult_sum = 0

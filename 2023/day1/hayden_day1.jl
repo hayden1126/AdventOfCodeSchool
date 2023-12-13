@@ -15,7 +15,7 @@ end
   
 function day1_2(file::String)::Nothing
   lines = readlines(file)
-   
+  
   sum = 0
   regex = r"one|two|three|four|five|six|seven|eight|nine|\d"
   regex_rev = r"enin|thgie|neves|xis|evif|ruof|eerht|owt|eno|\d"
